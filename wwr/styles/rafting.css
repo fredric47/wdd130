@@ -1,0 +1,90 @@
+/* .kulim-park-regular {
+    font-family: "Kulim Park", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.rubik-dirt-regular {
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+
+:root {
+    --main-color: #1B9C9C;
+    --secondary-color: #5C1B9C;
+    --accent1-color: #9C1B1B;
+    --accent2-color: #5C9C1B;
+    --fontsize_large: 35px;
+    --fontsize_small: 14px;
+    --heading_font: "Rubik Dirt";
+    --text_font: "Kulim Park";
+    --header_font_weight: 250;
+
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.hero article {
+    width: 750px;
+    position: absolute;
+    top: 22%;
+    left: 33%;
+    background-color: #1b9c9ce3;
+    border-radius: 10px;
+}
+
+.hero article img {
+    width: 100px;
+    height: auto;
+    position: relative;
+    float: right;
+    border-radius: 50%;
+    box-shadow: 0 4px rgba(254, 254, 254, 0.25);
+}
+
+h1 {
+    font-family: var(--heading_font);
+    font-weight: var(--header_font_weight);
+    color: var(--main-color);
+    font-size: var(--fontsize_large);
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    background-color: #ffffff;
+    border-radius: 10%;
+} 
+
+h2 {
+    font-family: var(--heading_font);
+    font-weight: var(--header_font_weight);
+    color: var(--main-color);
+}
+
+p {
+    font-family: var(--text_font);
+}
+
+.lineless {
+    text-decoration: none;
+}
+
+article {
+    position: absolute;
+}
+

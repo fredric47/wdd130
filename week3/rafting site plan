@@ -1,0 +1,34 @@
+
+-Colors-
+primary-color #1B9C9C
+secondary-color #5C1B9C
+accent1-color #9C1B1B
+accent2-color #5C9C1B
+
+-Fonts-
+heading-font, Rubik Dirt
+text-font, kulim-park-regular
+
+-Color Pallette Link-
+https://coolors.co/palette/1b9c9c-5c1b9c-9c1b1b-5c9c1b 
+
+
+-Embed code in the <head> of your html-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kulim+Park&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    
+    -Kulim Park: CSS class-
+    .kulim-park-regular {
+      font-family: "Kulim Park", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    -Rubik Dirt: CSS class-
+    .rubik-dirt-regular {
+      font-family: "Rubik Dirt", system-ui;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
