@@ -12,7 +12,7 @@
 
 
 :root {
-    --main-color: #1B9C9C;
+    --main-color: #000000;
     --secondary-color: #5C1B9C;
     --accent1-color: #9C1B1B;
     --accent2-color: #5C9C1B;
@@ -118,7 +118,7 @@ h1 {
     position: absolute;
     top: 1%;
     left: 5%;
-    background-color: #ffffff;
+    background-color: #1b9c9ce3;
     border-radius: 10%;
 } 
 
@@ -141,7 +141,7 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #c0c0c0;
+    background-color: #e3e1e1;
     padding: 1rem;
     margin: 1rem 0;
 }
@@ -149,8 +149,9 @@ p {
 .history .info {
   display: grid;
   grid-template-columns: 1fr 250px 1fr;
-  background-color: #dedede;
-  padding: 1rem;}
+  background-color: #bababa;
+  padding: 1rem;
+}
 
 .history h2 {
     font-family: var(--heading_font);
@@ -175,12 +176,15 @@ article {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #c0c0c0;
+    background-color: #e3e1e1;
+    padding: 1rem;
+    margin: 1rem 0;
 }
 
 .trips{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    background-color: #bababa;
 }
 
 .trips img {
